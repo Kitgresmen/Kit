@@ -1,0 +1,50 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before
+*::after{
+  box-sizing: inherit;
+}
+
+
+body{
+color: aliceblue;
+background: linear-gradient(180deg, #374151 0%, #111827 100%);
+padding: 0;
+}
+
+.container{
+max-width: 1080px;
+margin: 0 auto;
+}
+
+.header{
+  height: 1516px;
+}
+.Logo {
+width: 35px;
+height: 35px;
+  border: none;
+}
+
+.Logo img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 52px;
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  gap: 0 52px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 86px;
+  padding-top:32px;
+}
+
+
